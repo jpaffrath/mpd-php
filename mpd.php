@@ -179,6 +179,18 @@ class mpd {
 		$this->sendCommand('next');
 	}
 
+	function previous() {
+		$this->sendCommand('previous');
+	}
+
+	function pause() {
+		$this->sendCommand('pause 1');
+	}
+
+	function resume() {
+		$this->sendCommand('pause 0');
+	}
+
 	/*
 	* Stops playing.
 	*/
