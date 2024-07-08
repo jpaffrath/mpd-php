@@ -31,7 +31,7 @@ $mpd->clear();
 Get database informations:
 ```PHP
 $mpd->getArtistnames();
-$mpd->getAlbumnamesFromArtist();
+$mpd->getAlbumnamesFromArtist($artist);
 
 $mpd->isPlaying();
 ```
